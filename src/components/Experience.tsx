@@ -4,6 +4,38 @@ import { Calendar, MapPin, ExternalLink } from "lucide-react";
 
 const experiences = [
   {
+    period: "Mars 2025 - Août 2025",
+    company: "EPSI Montpellier",
+    location: "Montpellier",
+    position: "Construction d'une plateforme Big Data permettant l'ETL des données des systèmes d'une entreprise",
+    type: "Projet académique",
+    description: [
+      "Conception d'une architecture de collecte et stockage de données",
+      "Définition des processus de collecte et d'intégration de données",
+      "Extract-Transform-Load (ETL)",
+      "Conception de dashboard",
+      "Machine Learning"
+    ],
+    technologies: ["Python", "PyTorch", "Apache Spark", "Hadoop", "PostgreSQL", "Airflow", "Docker", "Power BI", "GitLab"]
+  },
+  {
+    period: "Juin 2025 - Juillet 2025",
+    company: "EPSI Montpellier",
+    location: "Montpellier",
+    position: "Configuration et Implémentation d'un Pipeline de Données avec Docker Compose et Outils Big Data",
+    type: "Projet académique",
+    description: [
+      "Mise en place de l'environnement de développement avec Docker Compose",
+      "Implémentation des extracteurs avec Kafka et outils Big Data",
+      "Implémentation des transformations avec Spark et Flink",
+      "Implémentation des chargeurs pour Hadoop et Cassandra",
+      "Orchestration avec Airflow dans l'environnement conteneurisé"
+    ],
+    technologies: ["Docker Compose", "Hadoop", "Spark", "Flink", "Kafka", "Cassandra", "Airflow", "Prometheus", "Grafana", "Trello"],
+    link: "https://gitlab.com/egahblewussi/env-big-data",
+    linkText: "gitlab.com/egahblewussi/env-big-data"
+  },
+  {
     period: "Juin 2025 - Septembre 2025",
     company: "LM SUD CONCIERGERIE",
     location: "Montpellier",
