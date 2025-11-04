@@ -30,7 +30,7 @@ export const Projects = () => {
           <div className="h-1 w-20 bg-accent mx-auto rounded-full"></div>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-2 gap-8 justify-items-center max-w-4xl mx-auto">
           {projects.map((project, index) => (
             <Card 
               key={index}
@@ -67,24 +67,18 @@ export const Projects = () => {
                   )}
                 </div>
                 
-                <CardDescription className="text-sm">
-                  <Badge 
-                    variant={project.status === "Production" ? "default" : "secondary"}
-                    className="mb-2"
-                  >
-                    {project.status}
-                  </Badge>
-                  {project.link && (
+                {project.link && (
+                  <CardDescription className="text-sm">
                     <a 
                       href={project.link} 
                       target="_blank" 
                       rel="noopener noreferrer"
-                      className="block text-accent hover:underline text-xs mt-1"
+                      className="block text-accent hover:underline text-xs"
                     >
                       {project.link}
                     </a>
-                  )}
-                </CardDescription>
+                  </CardDescription>
+                )}
               </CardHeader>
 
               <CardContent>
