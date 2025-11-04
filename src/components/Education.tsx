@@ -31,7 +31,7 @@ export const Education = () => {
     <section id="education" className="py-20 px-4 bg-muted/30">
       <div className="container mx-auto max-w-6xl">
         <div className="text-center mb-16 animate-slide-up">
-          <h2 className="text-4xl md:text-5xl font-bold mb-4">Formation</h2>
+          <h2 className="text-4xl md:text-5xl font-bold mb-4">Formations</h2>
           <div className="h-1 w-20 bg-accent mx-auto rounded-full"></div>
         </div>
 
