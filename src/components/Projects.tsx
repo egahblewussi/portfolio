@@ -6,15 +6,15 @@ import boutiquePlusLogo from "@/assets/boutique-plus-logo.png";
 
 const projects = [
   {
-    title: "MonEcole",
-    description: "Conception et réalisation d’une plateforme web de gestion des activités pédagogiques d’un institut d’enseignement supérieur.",
+    title: " Conception et réalisation d’une plateforme web de gestion des activités pédagogiques d’un institut d’enseignement supérieur.",
+    description: "Ce projet a pour objectif de notifier et de permettre aux étudiants, professeurs et parent/tuteur de consulter toutes les informations pédagogiques les concernant sans se déplacer vers l’institut  et aussi permettre à l’administration d’avoir la traçabilité  de toutes opérations effectuées par les étudiants dans le parcours de leurs formations.",
     image: monEcoleLogo,
     technologies: ["PHP", "Symfony", "HTML", "CSS", "JavaScript", "MySQL", "API REST", "Git"],
     link: "https://gitlab.com/egahblewussi/mon-ecole/-/tree/master"
   },
   {
-    title: "BOUTIQUE+",
-    description: "Développement d’une application de gestion d’une boutique en ligne",
+    title: "Développement d’une application de gestion d’une boutique en ligne",
+    description: "Le projet « BOUTIQUE+ » a pour objectif de concevoir une solution numérique permettant la gestion des ventes, du stock, de la facturation, des commandes et des livraisons. L’application offre aussi la possibilité d’effectuer des inventaires périodiques pour comparer les stocks réels aux stocks enregistrés et assurer un meilleur suivi des produits et la prise de décision.",
     image: boutiquePlusLogo,
     technologies: ["PHP", "Symfony", "HTML", "CSS", "JavaScript", "MySQL", "Git"],
     link: "https://gitlab.com/egahblewussi/gestion-de-boutique/-/tree/symfony54/"
