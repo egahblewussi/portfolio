@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { Mail, Linkedin, Github, Download } from "lucide-react";
+import { Mail, Linkedin, Github, Download, Gitlab } from "lucide-react";
 import heroBg from "@/assets/hero-bg.jpg";
 
 export const Hero = () => {
@@ -71,6 +71,15 @@ export const Hero = () => {
             </a>
             <a 
               href="https://gitlab.com/egahblewussi"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="p-3 rounded-full bg-primary-foreground/10 hover:bg-primary-foreground/20 text-primary-foreground transition-all hover:scale-110"
+              aria-label="GitLab"
+            >
+              <Gitlab className="h-6 w-6" />
+            </a>
+            <a 
+              href="https://github.com/egahblewussi/"
               target="_blank"
               rel="noopener noreferrer"
               className="p-3 rounded-full bg-primary-foreground/10 hover:bg-primary-foreground/20 text-primary-foreground transition-all hover:scale-110"

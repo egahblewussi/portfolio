@@ -1,6 +1,6 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { Mail, Phone, MapPin, Linkedin, Github } from "lucide-react";
+import { Mail, Phone, MapPin, Linkedin, Github, Gitlab } from "lucide-react";
 
 export const Contact = () => {
   return (
@@ -86,6 +86,16 @@ export const Contact = () => {
                 <Button variant="outline" size="lg" asChild>
                   <a 
                     href="https://gitlab.com/egahblewussi"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <Gitlab className="mr-2 h-5 w-5" />
+                    GitLab
+                  </a>
+                </Button>
+                <Button variant="outline" size="lg" asChild>
+                  <a 
+                    href="https://github.com/egahblewussi/"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
