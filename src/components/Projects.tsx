@@ -6,29 +6,19 @@ import boutiquePlusLogo from "@/assets/boutique-plus-logo.png";
 
 const projects = [
   {
-    title: "HOMEAID",
-    description: "Développement en cours. Application web interactive qui permet aux membres d'une famille de voter pour le dîner du jour directement depuis un écran partagé.",
+    title: "MonEcole",
+    description: "Conception et réalisation d’une plateforme web de gestion des activités pédagogiques d’un institut d’enseignement supérieur.",
     image: monEcoleLogo,
-    technologies: ["Angular", "TypeScript", "Tailwind", "Java", "PostgreSQL"],
-    status: "En développement",
+    technologies: ["PHP", "Symfony", "HTML", "CSS", "JavaScript", "MySQL", "API REST", "Git"],
     link: null
   },
   {
-    title: "APPLIED",
-    description: "Développement en cours. Application de gestion des candidatures. Centralisation des offres, génération de CV et lettre de motivation adaptés à chaque offre, suivi des statuts, filtres et recherche rapide pour une organisation facile.",
+    title: "BOUTIQUE+",
+    description: "Développement d’une application de gestion d’une boutique en ligne",
     image: boutiquePlusLogo,
-    technologies: ["TypeScript", "JavaScript", "Tailwind"],
-    status: "En développement",
+    technologies: ["PHP", "Symfony", "HTML", "CSS", "JavaScript", "MySQL", "Git"],
     link: null
   },
-  {
-    title: "RBNET MAROC",
-    description: "Site web de présentation de l'entreprise RBNET Maroc. Présentation des services de l'entreprise.",
-    image: null,
-    technologies: ["WordPress"],
-    status: "Production",
-    link: "https://www.rbnetmaroc.com/"
-  }
 ];
 
 export const Projects = () => {
