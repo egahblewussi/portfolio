@@ -18,8 +18,8 @@ export const Navbar = () => {
     { href: "#about", label: "À Propos" },
     { href: "#skills", label: "Compétences" },
     { href: "#projects", label: "Projets" },
-    { href: "#experience", label: "Expérience" },
-    { href: "#education", label: "Formation" },
+    { href: "#experience", label: "Expériences" },
+    { href: "#education", label: "Formations" },
     { href: "#contact", label: "Contact" }
   ];
 
