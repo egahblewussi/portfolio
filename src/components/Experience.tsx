@@ -4,10 +4,24 @@ import { Calendar, MapPin, ExternalLink } from "lucide-react";
 
 const experiences = [
   {
+    period: "Juin 2025 - Septembre 2025",
+    company: "LM SUD CONCIERGERIE",
+    location: "Montpellier",
+    position: "Développeur en automatisation et data engineering",
+    type: "Stage",
+    description: [
+      "Mise en place de workflows automatisés avec n8n pour la gestion des kits de la conciergerie",
+      "Développement de workflow n8n pour la capture automatique des cautions des clients ayant réservé plus de 5 nuits",
+      "Automatisation du remboursement de la caution 7 jours après le départ du client",
+      "Structuration des données de la conciergerie"
+    ],
+    technologies: ["N8N", "Python", "API REST", "JavaScript", "MySQL", "Docker", "GitLab"]
+  },
+  {
     period: "Mars 2025 - Août 2025",
     company: "EPSI Montpellier",
     location: "Montpellier",
-    position: "Construction d'une plateforme Big Data permettant l'ETL des données des systèmes d'une entreprise",
+    position: "Construction d'une plateforme Big Data permettant l'ETL des données des systèmes d'informations d'une entreprise",
     type: "Projet académique",
     description: [
       "Conception d'une architecture de collecte et stockage de données",
@@ -34,20 +48,6 @@ const experiences = [
     technologies: ["Docker Compose", "Hadoop", "Spark", "Flink", "Kafka", "Cassandra", "Airflow", "Prometheus", "Grafana", "Trello"],
     link: "https://gitlab.com/egahblewussi/env-big-data",
     linkText: "gitlab.com/egahblewussi/env-big-data"
-  },
-  {
-    period: "Juin 2025 - Septembre 2025",
-    company: "LM SUD CONCIERGERIE",
-    location: "Montpellier",
-    position: "Développeur en automatisation et data engineering",
-    type: "Stage",
-    description: [
-      "Mise en place de workflows automatisés avec n8n pour la gestion des kits de la conciergerie",
-      "Développement de workflow n8n pour la capture automatique des cautions des clients ayant réservé plus de 5 nuits",
-      "Automatisation du remboursement de la caution 7 jours après le départ du client",
-      "Structuration des données de la conciergerie"
-    ],
-    technologies: ["N8N", "Python", "API REST", "JavaScript", "MySQL", "Docker", "GitLab"]
   },
   {
     period: "Depuis Juin 2024",

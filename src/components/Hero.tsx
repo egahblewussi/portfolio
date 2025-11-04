@@ -24,12 +24,12 @@ export const Hero = () => {
             Pierre Komlavi ZODJRAKPE
           </h1>
           <div className="h-1 w-32 bg-accent mx-auto mb-6 rounded-full"></div>
-          <p className="text-xl md:text-2xl mb-4 text-primary-foreground/90 font-medium">
-            Expert en Ingénierie de Données
-          </p>
+          {/*<p className="text-xl md:text-2xl mb-4 text-primary-foreground/90 font-medium">
+            Ingénieur Logiciel | Expert en Ingénierie de Données
+          </p>*/}
           <p className="text-lg md:text-xl mb-8 text-primary-foreground/80 max-w-2xl mx-auto">
-            Développeur Full Stack & Data Engineer passionné par la data, le Machine Learning 
-            et l'automatisation. Actuellement en Master 2 à l'EPSI Montpellier.
+            Développeur Full Stack & Data Engineer passionné par la conception d'applications, la data, le Machine Learning 
+            et l'automatisation. Actuellement en Master 2 à l'EPSI Montpellier, je suis à la recherche d'une alternance.
           </p>
 
           {/* CTA Buttons */}
@@ -40,10 +40,15 @@ export const Hero = () => {
                 Me Contacter
               </a>
             </Button>
+            <a
+              href="/cv_p.pdf"
+              download
+            >
             <Button variant="outline" size="lg" className="bg-primary-foreground/10 text-primary-foreground border-primary-foreground/30 hover:bg-primary-foreground/20">
               <Download className="mr-2 h-5 w-5" />
               Télécharger CV
             </Button>
+            </a>
           </div>
 
           {/* Social Links */}
@@ -56,7 +61,7 @@ export const Hero = () => {
               <Mail className="h-6 w-6" />
             </a>
             <a 
-              href="https://www.linkedin.com/in/pierre-komlavi-zodjrakpe"
+              href="https://www.linkedin.com/in/pierre-komlavi-zodjrakpe/"
               target="_blank"
               rel="noopener noreferrer"
               className="p-3 rounded-full bg-primary-foreground/10 hover:bg-primary-foreground/20 text-primary-foreground transition-all hover:scale-110"
@@ -65,7 +70,7 @@ export const Hero = () => {
               <Linkedin className="h-6 w-6" />
             </a>
             <a 
-              href="https://gitlab.com/pierrekomlavi"
+              href="https://gitlab.com/egahblewussi"
               target="_blank"
               rel="noopener noreferrer"
               className="p-3 rounded-full bg-primary-foreground/10 hover:bg-primary-foreground/20 text-primary-foreground transition-all hover:scale-110"
