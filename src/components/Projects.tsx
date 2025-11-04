@@ -10,14 +10,14 @@ const projects = [
     description: "Conception et réalisation d’une plateforme web de gestion des activités pédagogiques d’un institut d’enseignement supérieur.",
     image: monEcoleLogo,
     technologies: ["PHP", "Symfony", "HTML", "CSS", "JavaScript", "MySQL", "API REST", "Git"],
-    link: null
+    link: "https://gitlab.com/egahblewussi/mon-ecole"
   },
   {
     title: "BOUTIQUE+",
     description: "Développement d’une application de gestion d’une boutique en ligne",
     image: boutiquePlusLogo,
     technologies: ["PHP", "Symfony", "HTML", "CSS", "JavaScript", "MySQL", "Git"],
-    link: null
+    link: "https://gitlab.com/egahblewussi/gestion-de-boutique/-/tree/symfony54/"
   },
 ];
 
