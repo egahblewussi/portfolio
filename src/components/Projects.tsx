@@ -1,12 +1,14 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { ExternalLink } from "lucide-react";
+import monEcoleLogo from "@/assets/mon-ecole-logo.png";
+import boutiquePlusLogo from "@/assets/boutique-plus-logo.png";
 
 const projects = [
   {
     title: "HOMEAID",
     description: "Développement en cours. Application web interactive qui permet aux membres d'une famille de voter pour le dîner du jour directement depuis un écran partagé.",
-    image: null,
+    image: monEcoleLogo,
     technologies: ["Angular", "TypeScript", "Tailwind", "Java", "PostgreSQL"],
     status: "En développement",
     link: null
@@ -14,7 +16,7 @@ const projects = [
   {
     title: "APPLIED",
     description: "Développement en cours. Application de gestion des candidatures. Centralisation des offres, génération de CV et lettre de motivation adaptés à chaque offre, suivi des statuts, filtres et recherche rapide pour une organisation facile.",
-    image: null,
+    image: boutiquePlusLogo,
     technologies: ["TypeScript", "JavaScript", "Tailwind"],
     status: "En développement",
     link: null
@@ -45,10 +47,18 @@ export const Projects = () => {
               className="gradient-card border-none shadow-lg hover:shadow-xl transition-all group"
             >
               <CardHeader>
-                <div className="aspect-video rounded-lg bg-muted/50 flex items-center justify-center mb-4 overflow-hidden">
-                  <span className="text-3xl md:text-4xl font-bold text-accent">
-                    {project.title}
-                  </span>
+                <div className="aspect-video rounded-lg bg-muted/50 flex items-center justify-center mb-4 overflow-hidden p-4">
+                  {project.image ? (
+                    <img 
+                      src={project.image} 
+                      alt={project.title}
+                      className="w-full h-full object-contain"
+                    />
+                  ) : (
+                    <span className="text-3xl md:text-4xl font-bold text-accent">
+                      {project.title}
+                    </span>
+                  )}
                 </div>
                 
                 <div className="flex items-start justify-between gap-2">
