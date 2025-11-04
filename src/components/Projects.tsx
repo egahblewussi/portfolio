@@ -10,7 +10,7 @@ const projects = [
     description: "Conception et réalisation d’une plateforme web de gestion des activités pédagogiques d’un institut d’enseignement supérieur.",
     image: monEcoleLogo,
     technologies: ["PHP", "Symfony", "HTML", "CSS", "JavaScript", "MySQL", "API REST", "Git"],
-    link: "https://gitlab.com/egahblewussi/mon-ecole"
+    link: "https://gitlab.com/egahblewussi/mon-ecole/-/tree/master"
   },
   {
     title: "BOUTIQUE+",
