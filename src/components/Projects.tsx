@@ -75,7 +75,7 @@ export const Projects = () => {
                       rel="noopener noreferrer"
                       className="block text-accent hover:underline text-xs"
                     >
-                      {project.link}
+                      Repo Git
                     </a>
                   </CardDescription>
                 )}
