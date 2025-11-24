@@ -21,16 +21,26 @@ const experiences = [
     period: "Mars 2025 - Août 2025",
     company: "EPSI Montpellier",
     location: "Montpellier",
-    position: "Construction d'une plateforme Big Data permettant l'ETL des données des systèmes d'informations d'une entreprise",
+    position: "Conception d’une plateforme Big Data dédiée aux données environnementales air/météo",
     type: "Projet académique",
     description: [
-      "Conception d'une architecture de collecte et stockage de données",
-      "Définition des processus de collecte et d'intégration de données",
-      "Extract-Transform-Load (ETL)",
-      "Conception de dashboard",
-      "Machine Learning"
+      "Conception d'une architecture Big Data (Data Lake + Data Warehouse) respectant les contraintes RGPD et sécurité.",
+      "Collecte horaire automatique des données via les API (air & météo), puis nettoyage et préparation des données afin de garantir leur fiabilité et leur utilisation",
+      "Conception de dashboards interactifs pour la visualisation des données météo & air",
+      "Développement de modèles de prédiction des indices de qualité de l’air"
+        ],
+    technologies: ["Python", "Scikit-learn", "Apache Spark", "Hadoop", "PostgreSQL", "Airflow", "Docker", "Power BI", "GitLab"]
+  },
+  {
+    period: "Février 2025 - Mars 2025",
+    company: "EPSI Montpellier",
+    location: "Montpellier",
+    position: "Analyse des Accidents de la Route en France",
+    type: "Projet académique",
+    description: [
+      "Extract-Transform-Load (ETL) et conception de Dashboard",
     ],
-    technologies: ["Python", "PyTorch", "Apache Spark", "Hadoop", "PostgreSQL", "Airflow", "Docker", "Power BI", "GitLab"]
+    technologies: [ "Python", "Power BI"],
   },
   {
     period: "Juin 2025 - Juillet 2025",
@@ -62,7 +72,7 @@ const experiences = [
       "Intégration des agrégateurs de paiement",
       "Tests unitaires et validation fonctionnelle"
     ],
-    technologies: ["Python", "Django", "HTML", "CSS", "JavaScript", "API REST", "PostgreSQL", "GitLab", "Trello"],
+    technologies: ["PHP", "Laravel", "HTML", "CSS", "JavaScript", "API REST", "PostgreSQL", "GitLab", "Trello"],
     link: "https://u-reference.com/fr",
     linkText: "u-reference.com"
   },
@@ -81,7 +91,18 @@ const experiences = [
       "Maintenance et mise à jour du système"
     ],
     technologies: ["Symfony", "Django", "React", "HTML", "CSS", "JavaScript", "MySQL", "AWS S3", "AWS CloudWatch", "AWS API Gateway", "API Platform", "FOSREST", "KeyCloak", "Docker", "Git", "Agile Scrum", "Asana"]
-  }
+  },
+  {
+    period: "Juin 2020 - Juin 2021",
+    company: "OLFA PLEXUS TECHNOLOGIE,",
+    location: "Lomé",
+    position: "Développement d’une application de gestion d’un hôtel et d’une boutique",
+    type: "Stage",
+    description: [
+      "Analyse, conception et développement de l'application",
+    ],
+    technologies: [ "Symfony", "HTML", "CSS", "JavaScript", "MySql", "GitLab"],
+  },
 ];
 
 export const Experience = () => {
